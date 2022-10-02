@@ -237,14 +237,14 @@ main {
 }
 
 .middle-products::before {
-    background: url(/assets/Untitled/products_top.png) no-repeat center/100%
+    background: url(../assets/Untitled/products_top.png) no-repeat center/100%
         auto;
     top: -6.1vw;
 }
 
 .middle-products::after {
-    background: url(/assets/Untitled/products_bottom.png) no-repeat center/100%
-        auto;
+    background: url(../assets/Untitled/products_bottom.png) no-repeat
+        center/100% auto;
     bottom: -6.1vw;
 }
 
@@ -270,12 +270,12 @@ main {
 }
 
 .middle__title::before {
-    background: url(/assets/Untitled/title_left.png) no-repeat;
+    background: url(../assets/Untitled/title_left.png) no-repeat;
     left: -75%;
 }
 
 .middle__title::after {
-    background: url(/assets/Untitled/title_right.png) no-repeat;
+    background: url(../assets/Untitled/title_right.png) no-repeat;
     right: -75%;
 }
 
@@ -299,7 +299,7 @@ main {
 
     width: 100%;
     height: 100%;
-    background: url(/assets/choco/bonbon_card2.jpg) no-repeat center/cover;
+    background: url(../assets/choco/bonbon_card2.jpg) no-repeat center/cover;
     position: absolute;
     top: 0;
     left: 0;
@@ -312,7 +312,7 @@ main {
 
     width: 100%;
     height: 100%;
-    background: url(/assets/choco/bonbon_card3.jpg) no-repeat center/cover;
+    background: url(../assets/choco/bonbon_card3.jpg) no-repeat center/cover;
     position: absolute;
     top: 0;
     left: 0;
@@ -325,7 +325,7 @@ main {
 
     width: 100%;
     height: 100%;
-    background: url(/assets/choco/raw_card2.jpg) no-repeat center/cover;
+    background: url(../assets/choco/raw_card2.jpg) no-repeat center/cover;
     position: absolute;
     top: 0;
     left: 0;
@@ -338,7 +338,7 @@ main {
 
     width: 100%;
     height: 100%;
-    background: url(/assets/choco/raw_card3.jpg) no-repeat center/cover;
+    background: url(../assets/choco/raw_card3.jpg) no-repeat center/cover;
     position: absolute;
     top: 0;
     left: 0;
@@ -579,12 +579,13 @@ input::-webkit-inner-spin-button {
 /* *********************** */
 
 .middle-aboutus::before {
-    background: url(/assets/Untitled/aboutus_top.png) no-repeat center/100% auto;
+    background: url(../assets/Untitled/aboutus_top.png) no-repeat center/100%
+        auto;
     top: -6.1vw;
 }
 
 .middle-aboutus::after {
-    background: url(/assets/Untitled/aboutus_bottom.png) no-repeat center/100%
+    background: url(../assets/Untitled/aboutus_bottom.png) no-repeat center/100%
         auto;
     bottom: -6.1vw;
 }
@@ -603,7 +604,7 @@ input::-webkit-inner-spin-button {
     top: 0%;
     right: 30%;
     background-color: #443311;
-    background: url("/assets/choco/draw.png") no-repeat center / cover;
+    background: url(../assets/choco/draw.png) no-repeat center / cover;
     clip-path: polygon(50% 0, 50% 50%, 100% 75%, 100% 0%);
 
     animation: poly-a 10s linear 0s infinite backwards;
@@ -630,7 +631,7 @@ input::-webkit-inner-spin-button {
     top: 30%;
     left: 35%;
     background-color: #443311;
-    background: url(/assets/choco/story4.png) no-repeat center / cover;
+    background: url(../assets/choco/story4.png) no-repeat center / cover;
     clip-path: polygon(100% 50%, 100% 50%, 0% 100%, 0% 0%);
 
     animation: poly-b 10s linear 0s infinite backwards;
@@ -657,7 +658,7 @@ input::-webkit-inner-spin-button {
     top: 5%;
     right: -2.5%;
     background-color: #443311;
-    background: url("/assets/choco/story2.png") no-repeat center / cover;
+    background: url(../assets/choco/story2.png) no-repeat center / cover;
     clip-path: polygon(50% 0, 50% 75%, 100% 50%, 100% 0%);
 
     animation: poly-c 10s linear 0s infinite backwards;
@@ -685,7 +686,7 @@ input::-webkit-inner-spin-button {
     right: 2.5%;
     background-color: #443311;
 
-    background: url("/assets/choco/story5.png") no-repeat center / cover;
+    background: url(../assets/choco/story5.png) no-repeat center / cover;
     clip-path: polygon(100% 0, 100% 50%, 0 100%, 0 50%);
 
     animation: poly-d 10s linear 0s infinite backwards;
@@ -715,7 +716,7 @@ input::-webkit-inner-spin-button {
     right: -5%;
     background-color: #443311;
 
-    background: url("/assets/choco/draw2.png") no-repeat bottom / cover;
+    background: url(../assets/choco/draw2.png) no-repeat bottom / cover;
 
     clip-path: polygon(100% 50%, 0 100%, 100% 100%);
 
@@ -772,14 +773,14 @@ input::-webkit-inner-spin-button {
 }
 
 .middle-feedback::before {
-    background: url(/assets/Untitled/feedback_top.png) no-repeat center/100%
+    background: url(../assets/Untitled/feedback_top.png) no-repeat center/100%
         auto;
     top: -6.1vw;
 }
 
 .middle-feedback::after {
-    background: url(/assets/Untitled/feedback_bottom.png) no-repeat center/100%
-        auto;
+    background: url(../assets/Untitled/feedback_bottom.png) no-repeat
+        center/100% auto;
     bottom: -6.1vw;
 }
 
@@ -892,7 +893,7 @@ input::-webkit-inner-spin-button {
     width: 100%;
     height: 40rem;
     position: relative;
-    background: url("/assets/choco/3b72a182-525b-4482-a5b4-842ca4fdd008.jpg")
+    background: url(../assets/choco/3b72a182-525b-4482-a5b4-842ca4fdd008.jpg)
         no-repeat center/cover;
 
     margin-bottom: 10rem;
@@ -908,29 +909,29 @@ input::-webkit-inner-spin-button {
 }
 
 .newmiddle::before {
-    background: url(/assets/Untitled/news_top_test.png) no-repeat center/101%
+    background: url(../assets/Untitled/news_top_test.png) no-repeat center/101%
         auto;
     top: -1vw;
 }
 
 .newmiddle::after {
-    background: url(/assets/Untitled/news_bottom_test.png) no-repeat center/101%
-        auto;
+    background: url(../assets/Untitled/news_bottom_test.png) no-repeat
+        center/101% auto;
     bottom: -1vw;
 }
 
 .newmiddle-products {
-    background: url(/assets/choco/section_products.jpg);
+    background: url(../assets/choco/section_products.jpg);
     background-attachment: fixed;
 }
 
 .newmiddle-aboutus {
-    background: url(/assets/choco/66398352_632479933929567_7996465427447204037_n.jpg)
+    background: url(../assets/choco/66398352_632479933929567_7996465427447204037_n.jpg)
         no-repeat center/cover;
 }
 
 .newmiddle-feedback {
-    background: url("/assets/nakamara/header_thenakamura_10.jpg") no-repeat
+    background: url(../assets/nakamara/header_thenakamura_10.jpg) no-repeat
         center/cover;
 }
 
@@ -1037,7 +1038,7 @@ input::-webkit-inner-spin-button {
     width: 100%;
     height: 30rem;
 
-    background: url("/assets/choco/products_banner2.webp") no-repeat
+    background: url(../assets/choco/products_banner2.webp) no-repeat
         center/cover;
 
     background-color: #fa0;
@@ -1414,7 +1415,8 @@ input::-webkit-inner-spin-button {
 }
 
 .customize-banner {
-    background: url(/assets/choco/customize_banner.jpg) no-repeat center / cover;
+    background: url(../assets/choco/customize_banner.jpg) no-repeat center /
+        cover;
 }
 
 .customize-row {
@@ -1639,7 +1641,7 @@ input::-webkit-inner-spin-button {
 /* ******************關於我們******************* */
 
 .about-banner {
-    background: url(/assets/choco/draw4.png) no-repeat center/cover;
+    background: url(../assets/choco/draw4.png) no-repeat center/cover;
 }
 
 .part1-col {
@@ -1788,7 +1790,7 @@ p span:nth-child(9) {
 /* ******************最新消息******************* */
 
 .news-banner {
-    background: url(/assets/choco/faq_banner.jpg) no-repeat center/cover;
+    background: url(../assets/choco/faq_banner.jpg) no-repeat center/cover;
 }
 
 .info-col {
@@ -1896,7 +1898,7 @@ p span:nth-child(9) {
 /* ******************訂購須知******************* */
 
 .faq-banner {
-    background: url(/assets/choco/products_banner.jpg) no-repeat center/cover;
+    background: url(../assets/choco/products_banner.jpg) no-repeat center/cover;
 }
 
 .order-title {
